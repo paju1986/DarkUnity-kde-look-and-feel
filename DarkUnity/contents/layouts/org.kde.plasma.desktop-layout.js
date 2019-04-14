@@ -21,10 +21,14 @@ var spacer = panel.addWidget("org.kde.plasma.panelspacer")
 spacer.currentConfigGroup = ["Configuration", "General"]
 spacer.writeConfig("expanding", false)
 
+//window title 
+panel.addWidget("org.kde.windowtitle")
 //Kickerdash
 panel.addWidget("org.kde.plasma.appmenu")
 //Spacer
 panel.addWidget("org.kde.plasma.panelspacer")
+//plasma configuration plasmaConfSaver
+panel.addWidget("com.pajuelo.plasmaConfSaver")
 //System tray
 panel.addWidget("org.kde.plasma.systemtray")
 //Clock

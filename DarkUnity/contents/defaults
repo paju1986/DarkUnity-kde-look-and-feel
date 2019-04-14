@@ -18,3 +18,6 @@ theme=
 
 [plasmarc][Theme]
 name=DarkUnity
+
+[Containments][176][Wallpaper][org.kde.image][General]
+Image=file:///home/alberto/Descargas/4876f1f0215c5017ef685ccec93f9a3e.jpg
